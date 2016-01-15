@@ -1155,7 +1155,7 @@ x86_0 &::= & (\key{program} \;\Int \; \Instr^{+})
 To compile one language to another it helps to focus on the
 differences between the two languages. It is these differences that
 the compiler will need to bridge. What are the differences between
-$R_1$ and x86-64 assembly? Here we list some of the most important the
+$R_1$ and x86-64 assembly? Here we list some of the most important
 differences.
 
 \begin{enumerate}
@@ -1216,7 +1216,7 @@ We further simplify the translation from $R_1$ to x86 by identifying
 an intermediate language named $C_0$, roughly half-way between $R_1$
 and x86, to provide a rest stop along the way. We name the language
 $C_0$ because it is vaguely similar to the $C$
-language~\citep{Kernighan:1988nx}. The differences \#4 and \#1,
+language~\citep{Kernighan:1988nx}. The differences \#4 and \#2,
 regarding variables and nested expressions, will be handled by two
 steps, \key{uniquify} and \key{flatten}, which bring us to
 $C_0$.
